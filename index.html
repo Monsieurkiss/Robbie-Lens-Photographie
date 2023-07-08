@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
+    <title>Accueil – Robbie Lens Photographie</title>
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+
+            <a class="linksimg" href="../index.html">
+                <img src="../IMG/logo.png" alt="Logo de Robbie Lens">
+            </a>
+
+            <div>
+
+                <a href="index.html">Accueil</a> <!-- Link useless -->
+                <a href="./HTML/a-propos.html">À propos</a>
+                <a href="./HTML/portfolio.html">Portfolio</a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="coreintro">
+
+            <div>
+
+                <h1>Photographie <br> de Robbie Lens</h1> <!-- Ajout d'un br plus joli -->
+
+                <p>
+                    Où <em>professionalisme</em> s’allie avec <em>passion</em>. Depuis
+                    plus de 5 ans maintenant, j’exerce mon métier avec la passion
+                    qui m’anime : capturer l’essence de chaque instant.
+                </p>
+
+                <a class="radiant" href="#form">UN PROJET ? ÉCRIVEZ-MOI</a>
+
+            </div>
+
+            <img src="./IMG/robbie-lens.png" alt="Photo avec effet de Robbie Lens">
+
+        </section>
+
+        <section class="coreprojects">
+
+            <h2>Mon dernier projet</h2>
+
+            <div>
+
+                <img src="./IMG/Accueil/element-1.png" alt="Twelve apostles - Australie">
+                <img src="./IMG/Accueil/element-2.png" alt="Wai-O-Tapu - Nouvelle-Zélande">
+                <img src="./IMG/Accueil/element-3.png" alt="Parc National d’Abel Tasman - Nouvelle-Zélande">
+
+            </div>
+
+            <div>
+
+                <img src="./IMG/Accueil/element-4.png" alt="Lac Rotorua - Nouvelle-Zélande">
+                <img src="./IMG/Accueil/element-5.png" alt="Milford Sound - Nouvelle-Zélande">
+                <img src="./IMG/Accueil/element-6.png" alt="Lac Wanaka - Nouvelle-Zélande">
+
+            </div>
+
+        </section>
+
+        <section class="contact">
+
+            <h2>Parlons de votre projet</h2>
+
+            <form id="form" method="get" action="">
+
+                <div class="formrow">
+
+                    <div class="formcolumn">
+
+                        <label for="nom">Quel est votre nom ?</label>
+                        <input type="text" name="nom" id="nom" placeholder="Nom" required>
+
+                    </div>
+
+                    <div class="formcolumn">
+
+                        <label for="prenom">Quel est votre prénom ?</label>
+                        <input type="text" name="prenom" id="prenom" placeholder="Prénom" required>
+
+                    </div>
+
+                </div>
+
+                <div class="formcolumn">
+
+                    <label for="email">Quel est votre e-mail ?</label>
+                    <input type="email" name="email" id="email" placeholder="Adresse mail" required>
+
+                </div>
+
+                <label id="labelarea" for="textarea">Quel est votre message ?</label>
+                <textarea name="message" id="message" placeholder="Message" required></textarea>
+
+                <input class="radiant" type="submit" value="ENVOYER">
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <img src="./IMG/logo.png" alt="Logo de Robbie Lens">
+
+        <div>
+
+            <a class="linksimg" href="https://twitter.com/" target="_blank">
+                <img src="./IMG/twitter.png" alt="Logo Twitter">
+            </a>
+            <a class="linksimg" href="https://www.instagram.com/" target="_blank">
+                <img src="./IMG/instagram.png" alt="Logo Instagram">
+            </a>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
